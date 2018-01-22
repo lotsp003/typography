@@ -1,0 +1,94 @@
+/* Embedded Fonts */
+/* google.com/fonts*/
+
+@font-face {
+	font-family: blah;
+	src: url(../fonts/futura.ttc);
+}
+
+
+
+
+/* Container Items */
+
+html,body {
+	height: 100%;
+	width: 100%;	
+}
+
+#cover {
+	width: 100%;
+	height: 100%;
+	background: url("../images/cover.jpg") no-repeat center fixed; /* fixed text makes it look like next info is almost scrolling over image */
+	background-repeat: no-repeat;
+	-webkit-background-size: cover; /*ensures height and width of background image*/
+}
+
+#container {
+
+}
+
+
+
+/* Paragraph Styles */
+
+.title {
+ font-family: blah;
+ width: 800px;
+ font-size: 2em;
+ color: #c7b299;
+ line-height: 1.75em;
+ letter-spacing: .1em;
+ word-spacing: 0em;
+ text-align: left;
+ text-indent: 0em;
+ position: absolute;
+ left: 5%;
+ top: 90%;
+
+}
+
+.author {
+
+}
+.pottery {
+	width: 20%;
+	height: 20%;
+}
+
+
+#pots1 {
+	width: 100%;
+	height: 100%;
+}
+
+#pots2 {
+	width: 100%;
+	height: 100%;
+}
+#pots3 {
+	width: 100%;
+	height: 100%;
+}
+
+.text {
+ font-family: blah;
+ width: 800px;
+ font-size: .9em;
+ color: #333333;
+ line-height: 1.75em;
+ letter-spacing: 0em;
+ word-spacing: 0em;
+ text-align: left;
+ text-indent: 0em;
+ margin-left: 5%;
+ margin-top: 2%;
+ margin-bottom: 5%;
+
+}
+
+
+.italic {
+	font-style: italic;
+	
+}
